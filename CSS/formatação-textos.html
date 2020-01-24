@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatçãoes de Textos</title>
+    <style type="text/css">
+
+        p {
+            font-size: 30px;
+            font-family: "Georgia";
+
+        }
+        .texto{
+            font-size: 1em; /*px, %, em*/     
+        }
+        .negrito{
+            font-weight: 900; /*100 até 900*/
+        }
+        .estilo {
+            font-style: italic;
+            /* font-style: oblique; */
+        }
+        .texto-padrao{
+            font: bold 40px "Palatino Linotype", "Book Antiqua",
+            Palatino, serif;
+        }
+        .formatacao{
+             /* text-decoration: underline; */
+             /* text-decoration: underline; */
+             text-decoration: line-through;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p class="texto">Lorem ipsum <span class="formatacao">dolor</span> 
+            sit amet, consectetur adipiscing elit.
+             Quisque rutrum ornare odio sed suscipit.</p>
+
+        <p class="negrito">Contéudo 1</p>
+        <p>Contéudo 3</p>
+        <p class="estilo">Contéudo 3</p>
+        <p class="texto-padrao">Contéudo 4</p>
+
+    </div>
+</body>
+</html>
